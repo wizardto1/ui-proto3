@@ -6,15 +6,25 @@ app-top-bar {
   width: 100%;
   height: 10vh;
   /*background-color: #B75AE6;*/
-  padding: 0;
+  padding: 0px;
+
+  
+}
+app-top-gray-bar{
+  /*
+  width: 100%;
+  height: 10px;
+  border-radius:0;
+  background-image:linear-gradient(to top,blue,black);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  position: flex;
-  right: 0;
-  
-  left: 0;
+  position: relative;
+  left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:.5;
+  margin:0px;*/
 }
 app-body{
   height:80vh;
@@ -33,46 +43,32 @@ app-bottom-bar {
   right: 0;
   bottom: 0;
   left: 0;
+  margin:0;
 }
 app-gray-bar {
+  /
   width: 100%;
   height: 10px;
   border-radius:0;
   background-image:linear-gradient(to bottom,white,black);
-  display: block;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  right: 0;
-  bottom: 0;
-  left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    opacity:.5;
-  margin:0;
-}
-h1{
-  font-family: Arial, Helvetica, sans-serif;
-}
-p{
-  font-family: Arial, Helvetica, sans-serif;
-}
-app-top-gray-bar{
-  width: 100%;
-  height: 10px;
-  border-radius:0;
-  background-image:linear-gradient(to top,white,black);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  right: 0;
-  bottom: 0;
+  
+  
   left: 50%;
-    
+
     transform: translate(-50%, -50%);
     opacity:.5;
+  margin:0px;
+  
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
   margin:0;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
 }

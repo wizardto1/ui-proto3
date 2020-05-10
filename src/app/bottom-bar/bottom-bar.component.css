@@ -13,10 +13,25 @@ td {
 }
 .d3 {
     text-align:right;
+    margin-right:50px;
 }
 .copy {
     visibility: hidden;
 }
 .copy, .d3 {
     white-space: nowrap;
+}
+.bottombar{
+  width: 100%;
+  height: 10px;
+  background:linear-gradient(to top,blue,black);
+  display: float;
+  flex-direction: row;
+  
+  align-items: center;
+  position: relative;
+  left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:.5;    
+
 }
