@@ -10,6 +10,9 @@ app-top-bar {
 
   
 }
+app-body{
+  margin:0;
+}
 app-top-gray-bar{
   /*
   width: 100%;
