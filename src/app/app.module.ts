@@ -22,12 +22,15 @@ import { LanguageComponent } from './language/language.component';
 import { TopGrayBarComponent } from './body/top-gray-bar/top-gray-bar.component';
 import { Website3Component } from './website3/website3.component';
 import { TrackerComponent } from './tracker/tracker.component';
+import { IdentifiedComponent } from './identified/identified.component';
+import { FixedComponent } from './fixed/fixed.component';
+import { HazardScoreComponent } from './hazard-score/hazard-score.component';
 const appRoutes: Routes = [
-   { path: '', redirectTo : '/home', pathMatch:'full' },{path:'home', component: HomeComponent },{path:'learning',component:LearningCenterComponent},{path:'video',component:VideoComponent},{path:'eval',component:HomeEvalComponent},{path:'transition',component:TransitionComponent},{path:'contact',component:ContactComponent},{path:'website1',component:Website1Component},{path:'website2',component:Website2Component},{path:'settings',component:SettingsComponent},{path:'language',component:LanguageComponent},{path:'website3',component:Website3Component},{path:'progress',component:TrackerComponent}];
+   { path: '', redirectTo : '/home', pathMatch:'full' },{path:'home', component: HomeComponent },{path:'learning',component:LearningCenterComponent},{path:'video',component:VideoComponent},{path:'eval',component:HomeEvalComponent},{path:'transition',component:TransitionComponent},{path:'contact',component:ContactComponent},{path:'website1',component:Website1Component},{path:'website2',component:Website2Component},{path:'settings',component:SettingsComponent},{path:'language',component:LanguageComponent},{path:'website3',component:Website3Component},{path:'progress',component:TrackerComponent},{path:'identified',component:IdentifiedComponent},{path:'fixed',component:FixedComponent},{path:'hazard',component:HazardScoreComponent}];
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,RouterModule.forRoot(appRoutes) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, TopBarComponent, BottomBarComponent, LearningCenterComponent, VideoComponent, HomeEvalComponent, TransitionComponent, ContactComponent, BodyComponent, Website1Component, SettingsComponent, Website2Component, GrayBarComponent, LanguageComponent, TopGrayBarComponent, Website3Component, TrackerComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, TopBarComponent, BottomBarComponent, LearningCenterComponent, VideoComponent, HomeEvalComponent, TransitionComponent, ContactComponent, BodyComponent, Website1Component, SettingsComponent, Website2Component, GrayBarComponent, LanguageComponent, TopGrayBarComponent, Website3Component, TrackerComponent, IdentifiedComponent, FixedComponent, HazardScoreComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

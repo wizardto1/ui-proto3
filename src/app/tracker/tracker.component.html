@@ -3,31 +3,32 @@
  <h1 style="color:white;">
  Home Safety Evaluation
  </h1>
- <div style=" background:#FF5964;"class="column1" style="height:10%; width:95%; justify-content:center;border:solid;margin:auto">
+ <div class="column1" style="height:10%; width:95%; justify-content:center;border:solid;margin:auto;background:#FFE066; margin-top:px;">
  <p style="display:inline;">
- Progress:0%
+ Progress:100%
  </p>
  </div>
- <div class="Column"><p style="display:inline;">Issues identified</p><p>0</p><img src="https://cdn.jsdelivr.net/gh/wizardto1/ui-proto2@master/src/app/baseline_warning_black_48dp.png" width="50" height="50"style="position:relative;"></div>
-    <div class="Column"><p style="display:inline;">Issues fixed</p><p>0</p> <img src="https://cdn.jsdelivr.net/gh/wizardto1/ui-proto2@master/src/app/baseline_check_box_black_48dp.png" width="50" height="50"style="position:relative;"></div>
-    <div class="Column"><p style="display:inline;">Hazard Score</p><p>0</p><img src="https://cdn.jsdelivr.net/gh/wizardto1/ui-proto2@master/src/app/baseline_error_black_48dp.png" width="50" height="50"style="position:relative;"></div>
+ <br>
+ <div class="Column" [routerLink]="['/identified']"><p style="display:inline;">Issues identified</p><p>0</p><img src="https://cdn.jsdelivr.net/gh/wizardto1/ui-proto2@master/src/app/baseline_warning_black_48dp.png" width="50" height="50"style="position:relative;"></div>
+    <div class="Column"[routerLink]="['/fixed']"><p style="display:inline;">Issues fixed</p><p>0</p> <img src="https://cdn.jsdelivr.net/gh/wizardto1/ui-proto2@master/src/app/baseline_check_box_black_48dp.png" width="50" height="50"style="position:relative;"></div>
+    <div class="Column"[routerLink]="['/hazard']"><p style="display:inline;">Hazard Score</p><p>0</p><img src="https://cdn.jsdelivr.net/gh/wizardto1/ui-proto2@master/src/app/baseline_error_black_48dp.png" width="50" height="50"style="position:relative;"></div>
  </div>
 <div style=" background:#FFE066;"class="column1">
-  
+<h1>Learning Module</h1>
     <table>
-  <tr>
-    <th></th>
+  <tr style="background:#f9d0cf">
+    <th ></th>
     <td>Introduction to App</td>
   </tr>
-  <tr>
+  <tr style="background:#f9d0cf">
     <th></th>
     <td>How to prevent fall injuries</td>
   </tr>
-  <tr>
+  <tr style="background:#f9a4a2">
     <th>X</th>
     <td>Introduction to NHT program</td>
   </tr>
-  <tr>
+  <tr style="background:#f9a4a2">
     <th>X</th>
     <td>Home exercise program</td>
   </tr>
